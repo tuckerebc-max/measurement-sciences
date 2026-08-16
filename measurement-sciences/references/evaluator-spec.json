@@ -1,0 +1,50 @@
+{
+  "evaluator_id": "OPT-67-MEASUREMENT-EVALUATOR-001",
+  "track_id": "OPT-67-MEASUREMENT",
+  "competency_id": "F2-COMP-67-MEASUREMENT-001",
+  "status": "EVALUATOR_DRAFT",
+  "primary_evidence": [
+    "construct map",
+    "decision brief",
+    "validity / evidence argument",
+    "precision and fairness review",
+    "technical report",
+    "residual-risk memo."
+  ],
+  "dimensions": [
+    "construct clarity",
+    "intended use",
+    "evidence sufficiency",
+    "technical quality",
+    "uncertainty",
+    "fairness / accessibility",
+    "consequences",
+    "reporting",
+    "improvement."
+  ],
+  "critical_failures": [
+    "score-as-construct",
+    "validity claim without evidence",
+    "fairness claim without subgroup / context review",
+    "or university exemplar labeled consensus."
+  ],
+  "challenge_set_design": [
+    "reliable but invalid measure",
+    "subgroup disparity with missing context",
+    "high-stakes score-use proposal",
+    "university program document",
+    "agent evaluator with construct drift."
+  ],
+  "improvement_loop": "diagnose unsupported claim → revise construct / evidence prompt → rerun technical audit → compare claim-to-evidence coverage and residual-risk disclosure.",
+  "quality_dimensions": [
+    "construct clarity",
+    "evidence sufficiency",
+    "technical quality",
+    "uncertainty and interpretation",
+    "fairness, accessibility, and consequences",
+    "reporting and improvement"
+  ],
+  "human_review_required": true,
+  "no_credentialing": true,
+  "source_boundary": "Project evaluator design until source-specific validity and human-review gates close."
+}

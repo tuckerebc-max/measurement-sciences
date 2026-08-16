@@ -1,0 +1,288 @@
+{
+  "competency_id": "F2-COMP-67-MEASUREMENT-001",
+  "name": "Advanced measurement and evaluator design",
+  "version": "0.1",
+  "domain": "6.7 advanced disciplinary competencies",
+  "source_provenance": [
+    {
+      "source_id": "F2-67-009",
+      "layer": "SOURCE",
+      "role": "AERA APA NCME testing standards"
+    },
+    {
+      "source_id": "F2-67-008",
+      "layer": "SOURCE",
+      "role": "AERA research conduct standards"
+    },
+    {
+      "source_id": "F2-67-011",
+      "layer": "SOURCE",
+      "role": "APA JARS reporting guidance"
+    },
+    {
+      "source_id": "F2-67-012",
+      "layer": "UNIVERSITY_EXEMPLAR",
+      "role": "UMD QMMS PhD program"
+    }
+  ],
+  "construct_definition": "Define, design, evaluate, interpret, report, and improve measurement and research systems with evidence for validity, precision, fairness, accessibility, uncertainty, and consequences. This is a project composite, not a universal PhD standard.",
+  "claims": [
+    {
+      "layer": "SOURCE",
+      "statement": "Testing standards emphasize validity, reliability or precision, fairness, accessibility, responsible interpretation, and consequences.",
+      "source_ids": [
+        "F2-67-009"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "Research and reporting standards require transparent conduct and reporting.",
+      "source_ids": [
+        "F2-67-008",
+        "F2-67-011"
+      ]
+    },
+    {
+      "layer": "UNIVERSITY_EXEMPLAR",
+      "statement": "UMD provides one concrete doctoral pathway through measurement, quantitative methodology, comprehensive examination, specialization, and dissertation.",
+      "source_ids": [
+        "F2-67-012"
+      ]
+    },
+    {
+      "layer": "INFERENCE",
+      "statement": "The project can use these as a composite competency architecture while preserving source layers.",
+      "source_ids": [
+        "F2-67-008",
+        "F2-67-009",
+        "F2-67-011",
+        "F2-67-012"
+      ]
+    }
+  ],
+  "subskills": [
+    {
+      "id": "MEAS-S1",
+      "name": "define construct, use, population, and consequences"
+    },
+    {
+      "id": "MEAS-S2",
+      "name": "design measures and evidence"
+    },
+    {
+      "id": "MEAS-S3",
+      "name": "evaluate validity, precision, uncertainty, and fairness"
+    },
+    {
+      "id": "MEAS-S4",
+      "name": "interpret and report"
+    },
+    {
+      "id": "MEAS-S5",
+      "name": "audit and improve evaluators"
+    }
+  ],
+  "evidence_requirements": [
+    {
+      "id": "MEAS-E1",
+      "evidence": "construct and decision map"
+    },
+    {
+      "id": "MEAS-E2",
+      "evidence": "validity or evidence argument"
+    },
+    {
+      "id": "MEAS-E3",
+      "evidence": "precision, uncertainty, fairness, and accessibility review"
+    },
+    {
+      "id": "MEAS-E4",
+      "evidence": "transparent technical report"
+    },
+    {
+      "id": "MEAS-E5",
+      "evidence": "improvement and residual-risk memo"
+    }
+  ],
+  "task_archetypes": [
+    {
+      "id": "MEAS-T1",
+      "task": "construct definition and design memo"
+    },
+    {
+      "id": "MEAS-T2",
+      "task": "measurement or data audit"
+    },
+    {
+      "id": "MEAS-T3",
+      "task": "validity argument"
+    },
+    {
+      "id": "MEAS-T4",
+      "task": "evaluator audit and revision"
+    }
+  ],
+  "quality_dimensions": [
+    {
+      "id": "Q1",
+      "name": "construct clarity"
+    },
+    {
+      "id": "Q2",
+      "name": "evidence sufficiency"
+    },
+    {
+      "id": "Q3",
+      "name": "technical quality"
+    },
+    {
+      "id": "Q4",
+      "name": "uncertainty and interpretation"
+    },
+    {
+      "id": "Q5",
+      "name": "fairness, accessibility, and consequences"
+    },
+    {
+      "id": "Q6",
+      "name": "reporting and improvement"
+    }
+  ],
+  "scoring_rules": [
+    {
+      "layer": "SOURCE",
+      "rule": "Use exact standards clauses and source-specific evidence requirements."
+    },
+    {
+      "layer": "EVALUATOR_DESIGN",
+      "rule": "Never infer validity or fairness from one statistic or score."
+    }
+  ],
+  "performance_levels": [
+    {
+      "level": "emerging",
+      "description": "names methods or metrics but leaves construct, use, or uncertainty unclear"
+    },
+    {
+      "level": "proficient",
+      "description": "aligns construct, evidence, quality, interpretation, and consequences"
+    },
+    {
+      "level": "transfer",
+      "description": "audits a new evaluator and revises it with explicit residual risk"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM1",
+      "name": "score-as-construct"
+    },
+    {
+      "id": "FM2",
+      "name": "precision-as-validity"
+    },
+    {
+      "id": "FM3",
+      "name": "fairness reduced to one statistic"
+    },
+    {
+      "id": "FM4",
+      "name": "university exemplar misrepresented as consensus"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "C1",
+      "constraint": "label composite and university-specific layers"
+    },
+    {
+      "id": "C2",
+      "constraint": "expert review for consequential measurement use"
+    },
+    {
+      "id": "C3",
+      "constraint": "rights review for standards text"
+    }
+  ],
+  "risk_considerations": [
+    {
+      "risk": "consequential decision harm",
+      "control": "explicit interpretation and consequence review"
+    },
+    {
+      "risk": "construct underrepresentation",
+      "control": "construct map and boundary claims"
+    },
+    {
+      "risk": "subgroup harm",
+      "control": "fairness and accessibility evidence"
+    }
+  ],
+  "agent_instructions": {
+    "allowed_role": "calculate, compare, annotate, and propose evidence maps",
+    "must_do": [
+      "define intended use",
+      "show claim-to-evidence links",
+      "surface uncertainty",
+      "flag missing validity evidence"
+    ],
+    "must_not_do": [
+      "declare validity",
+      "make high-stakes decision",
+      "collapse source and synthesis"
+    ],
+    "human_accountability": "measurement expert owns construct and decision interpretation"
+  },
+  "evaluator_checks": [
+    {
+      "id": "EV1",
+      "check": "construct and decision are defined"
+    },
+    {
+      "id": "EV2",
+      "check": "claims map to evidence"
+    },
+    {
+      "id": "EV3",
+      "check": "precision, validity, fairness, and uncertainty are separated"
+    },
+    {
+      "id": "EV4",
+      "check": "consequence and improvement review is present"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TC1",
+      "fixture": "high reliability, weak construct",
+      "expected": "validity concern"
+    },
+    {
+      "id": "TC2",
+      "fixture": "subgroup disparity with missing context",
+      "expected": "needs subgroup and consequence review"
+    },
+    {
+      "id": "TC3",
+      "fixture": "university syllabus",
+      "expected": "university-specific label"
+    },
+    {
+      "id": "TC4",
+      "fixture": "agent evaluator",
+      "expected": "construct drift and residual-risk audit"
+    }
+  ],
+  "related_competencies": [
+    "ANRI-MSS-001",
+    "F2-COMP-67-EDUCATION-RESEARCH-001"
+  ],
+  "open_questions": [
+    {
+      "question": "Which open datasets and technical reports support the first proof point?"
+    },
+    {
+      "question": "Which portions of the Testing Standards can be reproduced or only linked?"
+    }
+  ]
+}

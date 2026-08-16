@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "track_id": "OPT-67-MEASUREMENT",
+  "competency_id": "F2-COMP-67-MEASUREMENT-001",
+  "source_ids": [
+    "F2-67-008",
+    "F2-67-009",
+    "F2-67-011",
+    "F2-67-012"
+  ],
+  "source_snapshot_date": "2026-08-09",
+  "source_boundary": "Scoped source evidence; not the competency itself.",
+  "project": "Fork 2 approved textbook-skill tracks",
+  "corpus_boundary": "Official and high-authority sources listed in the Fork 2 source ledger for eight user-approved options; no protected exam items, live client data, real-patient data, or full university curricula treated as evidence.",
+  "generated_at": "2026-08-09",
+  "migration": {
+    "source_schema": "F2-LEDGER-001",
+    "deduplication_notes": [
+      "Source IDs are Fork 2 lineage IDs and remain linked to the Markdown and JSONL ledger.",
+      "No quotations are promoted; candidate packets use paraphrase and source-grounded claims only."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "F2-67-008",
+      "author_or_organization": "American Educational Research Association",
+      "title": "Standards for Research Conduct",
+      "date": "Current source accessed 2026-08-09",
+      "format": "HTML",
+      "publication_status": "authoritative-standard",
+      "authority_role": "research-organization standard",
+      "independence": "Primary issuing-body source",
+      "locator_system": "URL and source-ledger record",
+      "supplied_filename": null,
+      "version_or_revision": "Current page or version noted in source ledger",
+      "coverage": "responsible and transparent education research",
+      "use_boundary": "Construct and evidence crosswalk only; not a license, admissions decision, or universal PhD standard",
+      "notes": "https://www.aera.net/Publications/Standards-for-Research-Conduct/mid/34382/dnnprintmode/true?ContainerSrc=%5BG%5DContainers%2F_default%2FNo+Container&SkinSrc=%5BG%5DSkins%2F_default%2FNo+Skin"
+    },
+    {
+      "source_id": "F2-67-009",
+      "author_or_organization": "AERA, APA, and NCME",
+      "title": "Standards for Educational and Psychological Testing",
+      "date": "Current source accessed 2026-08-09",
+      "format": "HTML",
+      "publication_status": "authoritative-standard",
+      "authority_role": "joint consensus standards",
+      "independence": "Primary issuing-body source",
+      "locator_system": "URL and source-ledger record",
+      "supplied_filename": null,
+      "version_or_revision": "Current page or version noted in source ledger",
+      "coverage": "validity, precision, fairness, accessibility, consequences",
+      "use_boundary": "Construct and evidence crosswalk only; not a license, admissions decision, or universal PhD standard",
+      "notes": "https://www.apa.org/science/programs/testing/standards?clearcache=true"
+    },
+    {
+      "source_id": "F2-67-011",
+      "author_or_organization": "American Psychological Association",
+      "title": "Journal Article Reporting Standards",
+      "date": "Current source accessed 2026-08-09",
+      "format": "HTML",
+      "publication_status": "authoritative-standard",
+      "authority_role": "professional publication standard",
+      "independence": "Primary issuing-body source",
+      "locator_system": "URL and source-ledger record",
+      "supplied_filename": null,
+      "version_or_revision": "Current page or version noted in source ledger",
+      "coverage": "transparent quantitative, qualitative, and mixed-method reporting",
+      "use_boundary": "Construct and evidence crosswalk only; not a license, admissions decision, or universal PhD standard",
+      "notes": "https://www.apa.org/pubs/journals/int/submit"
+    },
+    {
+      "source_id": "F2-67-012",
+      "author_or_organization": "University of Maryland",
+      "title": "Quantitative Methodology: Measurement and Statistics PhD",
+      "date": "Current source accessed 2026-08-09",
+      "format": "HTML",
+      "publication_status": "provider-authored",
+      "authority_role": "university-specific doctoral exemplar",
+      "independence": "Primary issuing-body source",
+      "locator_system": "URL and source-ledger record",
+      "supplied_filename": null,
+      "version_or_revision": "Current page or version noted in source ledger",
+      "coverage": "measurement, quantitative methods, exams, dissertation",
+      "use_boundary": "Construct and evidence crosswalk only; not a license, admissions decision, or universal PhD standard",
+      "notes": "https://education.umd.edu/quantitative-methodology-measurement-and-statistics-program"
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "P-F2-67-008",
+      "container_source_id": "F2-67-008",
+      "container_locator": "official URL in source ledger",
+      "claimed_original_source_id": "F2-67-008",
+      "claimed_original_locator": "official document/page",
+      "transformation": "official source -> Fork 2 ledger -> approved-track crosswalk",
+      "verification_basis": "official URL opened or inspected during current research pass",
+      "verification_status": "verified-working-source",
+      "verified_at": "2026-08-09",
+      "notes": "Full technical, rights, and version audit remains a track-level next step."
+    },
+    {
+      "provenance_id": "P-F2-67-009",
+      "container_source_id": "F2-67-009",
+      "container_locator": "official URL in source ledger",
+      "claimed_original_source_id": "F2-67-009",
+      "claimed_original_locator": "official document/page",
+      "transformation": "official source -> Fork 2 ledger -> approved-track crosswalk",
+      "verification_basis": "official URL opened or inspected during current research pass",
+      "verification_status": "verified-working-source",
+      "verified_at": "2026-08-09",
+      "notes": "Full technical, rights, and version audit remains a track-level next step."
+    },
+    {
+      "provenance_id": "P-F2-67-011",
+      "container_source_id": "F2-67-011",
+      "container_locator": "official URL in source ledger",
+      "claimed_original_source_id": "F2-67-011",
+      "claimed_original_locator": "official document/page",
+      "transformation": "official source -> Fork 2 ledger -> approved-track crosswalk",
+      "verification_basis": "official URL opened or inspected during current research pass",
+      "verification_status": "verified-working-source",
+      "verified_at": "2026-08-09",
+      "notes": "Full technical, rights, and version audit remains a track-level next step."
+    },
+    {
+      "provenance_id": "P-F2-67-012",
+      "container_source_id": "F2-67-012",
+      "container_locator": "official URL in source ledger",
+      "claimed_original_source_id": "F2-67-012",
+      "claimed_original_locator": "official document/page",
+      "transformation": "official source -> Fork 2 ledger -> approved-track crosswalk",
+      "verification_basis": "official URL opened or inspected during current research pass",
+      "verification_status": "verified-working-source",
+      "verified_at": "2026-08-09",
+      "notes": "Full technical, rights, and version audit remains a track-level next step."
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E-F2-67-MEAS-1",
+      "statement": "Testing standards specify evidence dimensions including validity, precision, fairness, accessibility, interpretation, responsibility, and consequences.",
+      "evidence_type": "quality-framework",
+      "source_ids": [
+        "F2-67-009"
+      ],
+      "provenance_ids": [
+        "P-F2-67-009"
+      ],
+      "theme_ids": [
+        "T-F2-67-MEASUREMENT"
+      ],
+      "locator_or_basis": "AERA APA NCME official standards page",
+      "authority_role": "joint consensus standards",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "high",
+      "contrary_evidence_ids": [],
+      "caution": "Not a universal doctoral curriculum."
+    },
+    {
+      "evidence_id": "E-F2-67-MEAS-2",
+      "statement": "AERA research conduct, APA JARS, and a UMD QMMS program exemplar supply complementary research and doctoral layers.",
+      "evidence_type": "cross-source-synthesis",
+      "source_ids": [
+        "F2-67-008",
+        "F2-67-011",
+        "F2-67-012"
+      ],
+      "provenance_ids": [
+        "P-F2-67-008",
+        "P-F2-67-011",
+        "P-F2-67-012"
+      ],
+      "theme_ids": [
+        "T-F2-67-MEASUREMENT"
+      ],
+      "locator_or_basis": "official standards, reporting, and program pages",
+      "authority_role": "cross-source synthesis",
+      "claim_status": "partially-supported",
+      "publication_condition": "conditional",
+      "confidence": "medium-high",
+      "contrary_evidence_ids": [],
+      "caution": "Composite architecture is project synthesis."
+    },
+    {
+      "evidence_id": "E-F2-67-EDRES-1",
+      "statement": "AERA research-conduct standards and APA JARS support transparent research conduct and reporting.",
+      "evidence_type": "research-standard",
+      "source_ids": [
+        "F2-67-008",
+        "F2-67-011"
+      ],
+      "provenance_ids": [
+        "P-F2-67-008",
+        "P-F2-67-011"
+      ],
+      "theme_ids": [
+        "T-F2-67-EDRES"
+      ],
+      "locator_or_basis": "official AERA and APA pages",
+      "authority_role": "research and publication standards",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "high",
+      "contrary_evidence_ids": [],
+      "caution": "Reporting quality is not validity by itself."
+    },
+    {
+      "evidence_id": "E-F2-67-EDRES-2",
+      "statement": "Testing standards and the QAA Education Studies benchmark add measurement and field context.",
+      "evidence_type": "cross-source-synthesis",
+      "source_ids": [
+        "F2-67-009",
+        "F2-67-015"
+      ],
+      "provenance_ids": [
+        "P-F2-67-009",
+        "P-F2-67-015"
+      ],
+      "theme_ids": [
+        "T-F2-67-EDRES"
+      ],
+      "locator_or_basis": "official standards and benchmark documents",
+      "authority_role": "joint consensus and sector benchmark",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "medium-high",
+      "contrary_evidence_ids": [],
+      "caution": "Not a universal PhD competency framework."
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "T-F2-67-MEASUREMENT",
+      "question_or_claim": "What composite sources support a Measurement Sciences PhD textbook?",
+      "inclusion_test": "Must preserve field standards, research reporting, and university-specific exemplar boundaries.",
+      "supporting_source_ids": [
+        "F2-67-008",
+        "F2-67-009",
+        "F2-67-011",
+        "F2-67-012"
+      ],
+      "supporting_evidence_ids": [
+        "E-F2-67-MEAS-1",
+        "E-F2-67-MEAS-2"
+      ],
+      "contrary_evidence_ids": [],
+      "quote_ids": [],
+      "case_ids": [],
+      "synthesis": "A composite architecture is possible, but no universal PhD standard is claimed.",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [],
+  "cases": [],
+  "gaps": [
+    {
+      "gap_id": "G-F2-67-MEAS",
+      "question": "Exact standards clauses, open datasets, and boundaries of a composite PhD architecture",
+      "why_it_matters": "standards, data, field consensus",
+      "missing_evidence_type": "source, technical, rights, or professional-review evidence",
+      "downstream_effect": "Disclose composite status and deepen source stack",
+      "disposition": "research"
+    }
+  ],
+  "handoff": {
+    "primary_source_ids": [
+      "F2-67-008",
+      "F2-67-009",
+      "F2-67-011",
+      "F2-67-012"
+    ],
+    "primary_evidence_ids": [
+      "E-F2-67-MEAS-1",
+      "E-F2-67-MEAS-2",
+      "E-F2-67-EDRES-1",
+      "E-F2-67-EDRES-2"
+    ],
+    "primary_theme_ids": [
+      "T-F2-67-MEASUREMENT"
+    ],
+    "verified_primary_quote_ids": [],
+    "conditional_quote_ids": [],
+    "prohibited_quote_ids": [],
+    "protected_case_ids": [],
+    "unresolved_gap_ids": [
+      "G-F2-67-MEAS"
+    ],
+    "inherited_use_notes_authority": "upstream-context-only",
+    "outline_boundary": "Evidence and competency handoff only; no final section order or word allocation."
+  },
+  "counts": {
+    "sources": 4,
+    "provenance": 4,
+    "evidence": 4,
+    "themes": 1,
+    "quotes": 0,
+    "cases": 0,
+    "gaps": 1
+  }
+}

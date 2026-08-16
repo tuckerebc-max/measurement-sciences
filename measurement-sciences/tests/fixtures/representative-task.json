@@ -1,0 +1,96 @@
+{
+  "fixture_id": "FIX-MEASUREMENT-SCIENCES-001",
+  "track_id": "OPT-67-MEASUREMENT",
+  "competency_id": "F2-COMP-67-MEASUREMENT-001",
+  "status": "READY_FOR_HUMAN_DRY_RUN",
+  "source_ids": [
+    "F2-67-008",
+    "F2-67-009",
+    "F2-67-011",
+    "F2-67-012"
+  ],
+  "construct_boundary": "Original educational pilot for Measurement sciences and evaluator design; not a credential, license, professional authorization, or high-impact decision.",
+  "task_contract": {
+    "purpose": "Run one bounded learner/reviewer task and inspect the evidence record.",
+    "role": "measurement and evaluator-design analyst",
+    "audience": "learner and qualified reviewer",
+    "format": "construct map, intended-use statement, validity evidence table, fairness / access review, residual-risk memo.",
+    "time_limit": "60 minutes",
+    "allowed_materials": [
+      "this original synthetic fixture",
+      "learner notes",
+      "clearly identified public sources where applicable"
+    ],
+    "prohibited_actions": [
+      "invent source content",
+      "use confidential or real-person data",
+      "present the output as professional authorization"
+    ],
+    "decision_rights": "provide formative feedback and request review; no credentialing or final consequential decision",
+    "accessibility": "plain-language, screen-reader-compatible, and equivalent representations are permitted"
+  },
+  "stimulus": {
+    "type": "original_synthetic_bounded_packet_excerpt",
+    "notice": "The fixture is educational and non-secure.",
+    "excerpt": "## `OPT-67-MEASUREMENT` — A score is not the construct\n\n**Learner target:** Build a construct and evidence map before recommending a score use.\n\n**Fictional assessment:** A short written-response measure is highly consistent across raters but samples only one narrow form of academic language. A district proposes using the score to assign students to an advanced research pathway.\n\n**Learner task:** Define the intended construct and decision. Identify evidence that supports precision, evidence that is missing for validity, possible construct underrepresentation, accessibility questions, subgroup questions, and consequences. Recommend a bounded next step or nonrecommendation.\n\n**Required artifact:** construct map, intended-use statement, validity evidence table, fairness / access review, residual-risk memo.\n\n**Nonmodel:** “The reliability coefficient proves the assessment is valid.”  \n**Feedback move:** Ask “What interpretation is being made, for whom, and what evidence would justify that interpretation?”\n\n**Agent handoff:** Agent organizes evidence and proposes missing checks; measurement expert owns the interpretation and decision boundary.\n\n**Exit test:** Provide a second measure..."
+  },
+  "learner_deliverables": [
+    "construct map, intended-use statement, validity evidence table, fairness / access review, residual-risk memo.",
+    "uncertainty and limitation record",
+    "review/escalation request"
+  ],
+  "evidence_envelope": {
+    "required_fields": [
+      "task_contract",
+      "source_ids",
+      "evidence",
+      "uncertainty",
+      "review_status"
+    ],
+    "minimum_evidence": [
+      "source traceability",
+      "boundary statement",
+      "at least one limitation or unresolved question",
+      "human-review route"
+    ]
+  },
+  "machine_checks": [
+    "required fields are present",
+    "source IDs are nonempty",
+    "rights and safety flags are declared",
+    "review status is present"
+  ],
+  "human_review": [
+    "Measurement expert owns consequential interpretation, fairness, accessibility, and decision boundaries.",
+    "substantive interpretation",
+    "accessibility and fairness",
+    "whether the output crosses the boundary"
+  ],
+  "stop_conditions": [
+    "real or confidential data are introduced",
+    "source or rights status is unclear",
+    "the task crosses into a live professional decision",
+    "the output is presented as a credential or sign-off"
+  ],
+  "evaluator": {
+    "dimensions": [
+      "traceability",
+      "construct evidence",
+      "uncertainty",
+      "boundary discipline",
+      "communication"
+    ],
+    "machine_decision": "structural checks only",
+    "human_decision": "qualified reviewer decides substantive adequacy and escalation",
+    "no_credentialing": true
+  },
+  "qa": {
+    "original_fixture": true,
+    "secure_content_reproduced": false,
+    "confidential_data": false,
+    "human_dry_run": "pending",
+    "known_risks": [
+      "Do not treat a score as the construct or claim validity/fairness without an evidence argument; label composite and exemplar layers."
+    ]
+  }
+}

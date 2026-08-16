@@ -1,0 +1,6 @@
+interface:
+  display_name: "Measurement Sciences"
+  short_description: "Design and audit evaluators"
+  default_prompt: "Use $measurement-sciences for a source-grounded, bounded Measurement sciences and evaluator design workflow."
+policy:
+  allow_implicit_invocation: true
